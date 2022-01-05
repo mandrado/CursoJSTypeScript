@@ -126,7 +126,7 @@ O arquivo final sem as linhas comentadas:
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Projects */
-  
+
     /* Language and Environment */
     "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "lib": ["ESNext", "DOM"],                            /* Specify a set of bundled library declaration files that describe the target runtime environment. */
@@ -163,3 +163,26 @@ O arquivo final sem as linhas comentadas:
 
 ### compilar tudo para testar
 `npx tsc`
+
+## 255. .editorconfig
+Importante que todos tenham as mesmas configurações do projeto.
+Para isso devemos gerar o arquivo .editorconfig
+
+Clique com o botão direito na raiz do projeto e depois em `Generate .editorconfig`.
+
+Conteúdo do arquivo deve ficar, mesmo que esteja no Windows:
+
+```
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = ture
+insert_final_newline = true
+```
