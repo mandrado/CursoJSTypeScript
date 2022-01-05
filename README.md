@@ -86,3 +86,80 @@ module.exports = {
 }
 ```
 
+## 254. tsconfig.json (inicial)
+
+A execução tsclocal irá compilar o projeto mais próximo definido por um tsconfig.json, você pode compilar um conjunto de arquivos TypeScript passando um conjunto de arquivos que você deseja.
+
+[Opções tsc CLI ](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+
+Como iniciar um projeto tsc do zero.
+
+`npx tsc --init`
+
+O comando cria o arquivo tsconfig.json
+
+Neste arquivo vamos incluir duas informações sobre bibliotecas usadas no projeto
+Descomente as linhas e deixe conforme abaixo:
+
+`"lib": ["ESNext", "DOM"],  /* Specify a set of bundled library declaration files that describe the target runtime environment. */`
+
+Em qual pasta irá disponíbilizar os arquivos de compilação
+`"rootDir": "./dist",       /* Specify the root folder within your source files. */`
+
+Os arquivos de entrada deverão estar na pasta /src . tudo que for de TypeScript estarão dentro desta pasta
+
+Acrescente no final do arquivo:
+
+```
+,
+  "include": [
+    "./src"
+  ]
+}
+```
+
+O arquivo final sem as linhas comentadas:
+
+```
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Projects */
+  
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["ESNext", "DOM"],                            /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "rootDir": "./dist",                                  /* Specify the root folder within your source files. */
+
+    /* JavaScript Support */
+    files. */
+
+    /* Emit */
+    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+
+    /* Interop Constraints */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "./src"                                             /* ascrescentando as pastas de entrada do projeto */
+  ]
+}
+```
+
+### Dica:
+* Comando `"typescript": "clear && npx ts-node --files --transpile-only"` no arquivo `.vscode/settings.json` do projeto (não funcionou no Windows/Ubuntu)
+* Vá em files -> Preferences -> Settings, pesquisar por 'clear' e ativar a opção na extensão do code runner
+
+### compilar tudo para testar
+`npx tsc`
