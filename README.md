@@ -25,3 +25,19 @@ crie o arquivo settings.json:
 }}
 ```
 
+## 252. Instalando e configurando o ESLint
+
+`npm i eslint -D`
+
+* tenha configurado o [dbaeumer.vscode-eslint](https://eslint.org/)
+
+Fazer a integração do EsLint com o TypeScritp
+
+`npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D`
+
+Criar o arquivo .eslintrc.js
+Copiar o conteúdo do repositório https://github.com/luizomf/cursojstypescript/blob/master/.eslintrc.js
+
+
+
+
