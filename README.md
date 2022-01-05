@@ -38,6 +38,51 @@ Fazer a integração do EsLint com o TypeScritp
 Criar o arquivo .eslintrc.js
 Copiar o conteúdo do repositório https://github.com/luizomf/cursojstypescript/blob/master/.eslintrc.js
 
+```
+module.exports = {
+  env: {
+    browser: true,
+    es6: true,
+    node: true,
+  },
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+  ],
+  globals: {
+    Atomics: "readonly",
+    SharedArrayBuffer: "readonly",
+  },
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: 11,
+    sourceType: "module",
+  },
+  plugins: ["@typescript-eslint"],
+  rules: {},
+};
+```
 
 
+
+## 253. Instalando e configurando o Prettier
+
+`npm i prettier eslint-config-prettier eslint-plugin-prettier -D`
+
+Criar o arquivo .prettierrc.js
+Inserir as seguintes configurações:
+
+
+
+```
+module.exports = {
+    semi: true, // ponto e vírgula sim
+    trailingComma: 'all', // colocar uma vírgula pendente no final da última linha
+    singleQuote: true, // habilita aspas simples no JavaScript e TypeScript
+    printWidth: 120, // largura máxima da linha de 120, o recomendado por alguns é 80
+    tabWidth: 2, // tamanho da tabulação de 2 (dois) espaços
+}
+```
 
