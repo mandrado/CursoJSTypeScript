@@ -1,0 +1,23 @@
+{
+  "name": "CursoJSTypeScript",
+  "version": "1.0.0",
+  "description": "Código Original poderá ser encontrado em: https://github.com/luizomf/cursojstypescript\r ## 250. Instalando o TypeScript\r Instalar como dependência de desenvolvimento:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandrado/CursoJSTypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandrado/CursoJSTypeScript/issues"
+  },
+  "homepage": "https://github.com/mandrado/CursoJSTypeScript#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
