@@ -200,3 +200,6 @@ Utilize any apenas em último caso, de preferência seja específico no tipo de 
 ## 258. Tipo void
 O tipo void quer dizer que uma função ou um método que não retorna nada:
 [Ver A0003-type-void.ts](./src/A0003-type-void/A0003-type-void.ts)
+
+## 259. Tipo object (objetos em geral)
+[Ver A0004-type-object.ts](./src/A0004-type-object/A0004-type-object.ts)
