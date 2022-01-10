@@ -186,3 +186,8 @@ charset = utf-8
 trim_trailing_whitespace = ture
 insert_final_newline = true
 ```
+
+## 256. Sintaxe de Type Annotations no TypeScript
+
+Típos básicos, Arrays, Objetos, Funções
+[Ver A0001-type-annotation.ts](./src/A0001-type-annotation/A0001-type-annotation.ts)
