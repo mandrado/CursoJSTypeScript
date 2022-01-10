@@ -196,3 +196,7 @@ Típos básicos, Arrays, Objetos, Funções
 Um tipo que geralmente não iremos querer receber.
 Utilize any apenas em último caso, de preferência seja específico no tipo de dado que quer receber
 [Ver A0002-type-any.ts](./src/A0002-type-any/A0002-type-any.ts)
+
+## 258. Tipo void
+O tipo void quer dizer que uma função ou um método que não retorna nada:
+[Ver A0003-type-void.ts](./src/A0003-type-void/A0003-type-void.ts)
