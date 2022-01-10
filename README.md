@@ -191,3 +191,8 @@ insert_final_newline = true
 
 Típos básicos, Arrays, Objetos, Funções
 [Ver A0001-type-annotation.ts](./src/A0001-type-annotation/A0001-type-annotation.ts)
+
+## 257. Tipo any
+Um tipo que geralmente não iremos querer receber.
+Utilize any apenas em último caso, de preferência seja específico no tipo de dado que quer receber
+[Ver A0002-type-any.ts](./src/A0002-type-any/A0002-type-any.ts)
