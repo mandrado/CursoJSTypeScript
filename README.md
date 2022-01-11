@@ -190,16 +190,26 @@ insert_final_newline = true
 ## 256. Sintaxe de Type Annotations no TypeScript
 
 Típos básicos, Arrays, Objetos, Funções
+
 [Ver A0001-type-annotation.ts](./src/A0001-type-annotation/A0001-type-annotation.ts)
 
 ## 257. Tipo any
 Um tipo que geralmente não iremos querer receber.
 Utilize any apenas em último caso, de preferência seja específico no tipo de dado que quer receber
+
 [Ver A0002-type-any.ts](./src/A0002-type-any/A0002-type-any.ts)
 
 ## 258. Tipo void
 O tipo void quer dizer que uma função ou um método que não retorna nada:
+
 [Ver A0003-type-void.ts](./src/A0003-type-void/A0003-type-void.ts)
 
 ## 259. Tipo object (objetos em geral)
 [Ver A0004-type-object.ts](./src/A0004-type-object/A0004-type-object.ts)
+
+## 260. Tipo array
+
+Implementação de tipos de arrays com TypeScript:
+
+[Ver A0005-type-array.ts](./src/A0005-type-array/A0005-type-array.ts)
+
