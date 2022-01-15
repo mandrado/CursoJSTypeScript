@@ -213,3 +213,9 @@ Implementação de tipos de arrays com TypeScript:
 
 [Ver A0005-type-array.ts](./src/A0005-type-array/A0005-type-array.ts)
 
+## 261. Tipo tuple
+
+Implementação de tipos de tuple com TypeScript:
+
+[Ver A0006-type-tuple.ts](./src/A0006-type-tuple/A0006-type-tuple.ts)
+
