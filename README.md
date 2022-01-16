@@ -234,3 +234,7 @@ Implementação de tipos de tuple com TypeScript:
 ## 265. Tipo unknown
 
 [Ver A0010-type-unknown.ts](./src/A0010-type-unknown/A0010-type-unknown.ts)
+
+## 266. Union Types
+
+[Ver A0011-type-Union.ts](./src/A0011-type-Union/A0011-type-Union.ts)
