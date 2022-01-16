@@ -238,3 +238,7 @@ Implementação de tipos de tuple com TypeScript:
 ## 266. Union Types
 
 [Ver A0011-type-Union.ts](./src/A0011-type-Union/A0011-type-Union.ts)
+
+## 267. Tipos Literais
+
+[Ver A0012-type-Literais.ts](./src/A0012-type-Literais/A0012-type-Literais.ts)
