@@ -222,3 +222,8 @@ Implementação de tipos de tuple com TypeScript:
 ## 262. Tipos null e undefined
 
 [Ver A0007-type-null-e-undefined.ts](./src/A0007-type-null-e-undefined/A0007-type-null-e-undefined.ts)
+
+## 263. Tipo never
+
+[Ver A0008-type-never.ts](./src/A0008-type-never/A0008-type-never.ts)
+
