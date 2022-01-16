@@ -318,4 +318,51 @@ Opcionalmente podemos configurar o package.json para rodar o comando desta forma
 Acrescente no campo scripts:
 `"dev": "webpack =w"`
 
-npm run dev
+Rode esse comando para iniciar o webpack:
+
+`npm run dev`
+
+## 274. Configuração do Webpack #2
+Ajustando as configurações
+* renomear a pasta dist para frontend
+
+Criar um novo arquivo tsconfig.frontend.json
+
+Obter as configurações da seção configFile do [site do ts-loader](https://github.com/TypeStrong/ts-loader#configfile) e inserir no webpack.config.js
+
+```
+   rules: [
+      {
+        test: /\.tsx?$/,
+        loader: 'ts-loader',
+        exclude: /node_modules/,
+        options: { configFile: 'tsconfig.frontend.json' }
+      },
+    ],
+```
+
+Desta forma agora temos uma configuação específica para frontend (tsconfig.frontend.json) e outra para backend (tsconfig.json).
+
+Para compilar o frontend: `npx webpack -w` ou `npm run dev`
+
+Para compilar o backend: `npx tsc`
+
+Antes de compilar o frontend, apagar a pasta js dentro de frontend\assets\js.
+
+Alterar o arquivo package.json para mudar a forma de executar o build:
+
+```
+   "build:frontend": "webpack -w",
+    "build:backend": "tsc",
+```
+
+Agora para fazer build rode um dos comandos:
+
+`npm run build:frontend`
+
+`npm run build:backend`
+
+
+
+
+
