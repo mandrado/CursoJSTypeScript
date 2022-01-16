@@ -227,3 +227,6 @@ Implementação de tipos de tuple com TypeScript:
 
 [Ver A0008-type-never.ts](./src/A0008-type-never/A0008-type-never.ts)
 
+## 264. Tipo Enum
+
+[Ver A0009-type-enum.ts](./src/A0009-type-enum/A0009-type-enum.ts)
