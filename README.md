@@ -261,3 +261,8 @@ Os tipos de interseção e união são uma das maneiras pelas quais você pode c
 
 [Ver A0016-type-structural.ts](./src/A0016-type-structural/A0016-type-structural.ts)
 
+## 272. Type assertions
+
+Requer 'DOM' na lib do tfconfig.json
+
+[Ver A0017-type-assertions.ts](./src/A0017-type-assertions/A0017-type-assertions.ts)
