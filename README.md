@@ -252,3 +252,7 @@ Implementação de tipos de tuple com TypeScript:
 Os tipos de interseção e união são uma das maneiras pelas quais você pode compor tipos.
 
 [Ver A0014-type-Intersection.ts](./src/A0014-type-Intersection/A0014-type-Intersection.ts)
+
+## 270. Funções como tipo
+
+[Ver A0015-type-function.ts](./src/A0015-type-function/A0015-type-function.ts)
