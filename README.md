@@ -266,3 +266,56 @@ Os tipos de interseção e união são uma das maneiras pelas quais você pode c
 Requer 'DOM' na lib do tfconfig.json
 
 [Ver A0017-type-assertions.ts](./src/A0017-type-assertions/A0017-type-assertions.ts)
+
+
+## 273. Configuração do Webpack #1 para trabalhar com frontEnd
+
+Compilar o projeto com `npx tsc` com isso criará a pasta /dist.
+
+
+Criado o arquivo "Ola Mundo"
+
+[Ver index.ts](./src/A0018-webpack/index.ts)
+
+### Instalar os pacotes necessários
+
+`npm i ts-loader@7.0.5 webpack@4.43.0 webpack-cli@3.3.12 -D`
+
+Configuração do webpack, criar o arquivo webpack.config.js na raiz do projeto
+
+Obter a configuração do [site do webpack](https://v4.webpack.js.org/guides/typescript/)
+
+```
+const path = require('path');
+
+module.exports = {
+  entry: './src/index.ts',
+  module: {
+    rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+    ],
+  },
+  resolve: {
+    extensions: [ '.tsx', '.ts', '.js' ],
+  },
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+  },
+};
+```
+
+Rodar com o comando do webpack assistindo as alterações dos arquivos:
+
+`npx webpack -w`
+
+Opcionalmente podemos configurar o package.json para rodar o comando desta forma:
+
+Acrescente no campo scripts:
+`"dev": "webpack =w"`
+
+npm run dev

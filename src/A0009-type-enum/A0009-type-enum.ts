@@ -24,5 +24,5 @@ function escolhaACor(cor:Cores):void {
 
 }
 
-escolhaACor('ROXO');
+escolhaACor(2);
 
