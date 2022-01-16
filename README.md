@@ -242,3 +242,7 @@ Implementação de tipos de tuple com TypeScript:
 ## 267. Tipos Literais
 
 [Ver A0012-type-Literais.ts](./src/A0012-type-Literais/A0012-type-Literais.ts)
+
+## 268. Type alias
+
+[Ver A0013-type-alias.ts](./src/A0013-type-alias/A0013-type-alias.ts)
