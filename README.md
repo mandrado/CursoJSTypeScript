@@ -256,3 +256,8 @@ Os tipos de interseção e união são uma das maneiras pelas quais você pode c
 ## 270. Funções como tipo
 
 [Ver A0015-type-function.ts](./src/A0015-type-function/A0015-type-function.ts)
+
+## 271. O Structural type system do TypeScript
+
+[Ver A0016-type-structural.ts](./src/A0016-type-structural/A0016-type-structural.ts)
+
