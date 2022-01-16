@@ -230,3 +230,7 @@ Implementação de tipos de tuple com TypeScript:
 ## 264. Tipo Enum
 
 [Ver A0009-type-enum.ts](./src/A0009-type-enum/A0009-type-enum.ts)
+
+## 265. Tipo unknown
+
+[Ver A0010-type-unknown.ts](./src/A0010-type-unknown/A0010-type-unknown.ts)
