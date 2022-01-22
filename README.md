@@ -382,7 +382,8 @@ Agora para fazer build rode do comando:
 
 Instalar as dependencias para validação do formulário:
 
-`npm i @types/validator`
+`npm install --save validator @types/validator -D`
+
 
 
 

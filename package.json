@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mandrado/CursoJSTypeScript#readme",
   "devDependencies": {
+    "@types/validator": "^13.7.1",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "eslint": "^8.6.0",
@@ -33,6 +34,6 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "@types/validator": "^13.7.1"
+    "validator": "^13.7.0"
   }
 }
