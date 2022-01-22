@@ -399,5 +399,22 @@ Nesta aula entendemos um pouco sobre o uso do `this` em arrow function:
 
 [Ver A0021-classes.ts](./src/A0021-classes/A0021-classes.ts)
 
+## 280. Revisitando o tsconfig.json
+
+Para entender as configurações do [tsconfig.frontend.json](tsconfig.frontend.json) e  [tsconfig.json](tsconfig.json)
+
+fique atendo ao `"target": "es2016"`, pois é nessa linha que diz qual a versão do Node JS.
+
+Acrescentados:
+
+```
+  "target": "ES2016",
+  "rootDir": "./src",
+  "sourceMap": true,
+  "removeComments": true, // remove os comentários ao compilar
+  "noEmitOnError": true, // não compila se houver erros
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true,
+```
 
 
