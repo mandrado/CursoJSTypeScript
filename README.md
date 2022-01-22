@@ -392,7 +392,12 @@ Nesta aula entendemos um pouco sobre o uso do `this` em arrow function:
 [Ver A0020-this-in-funcions.ts](./src/A0020-this-in-funcions/A0020-this-in-funcions.ts)
 
 
+# TypeScript - Classes e Interfaces - Programação Orientada a Objetos
 
+
+## 279. Classes em TypeScript - Moldes para objetos
+
+[Ver A0021-classes.ts](./src/A0021-classes/A0021-classes.ts)
 
 
 
