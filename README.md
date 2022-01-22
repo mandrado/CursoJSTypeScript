@@ -417,4 +417,13 @@ Acrescentados:
   "emitDecoratorMetadata": true,
 ```
 
+Recursos da aula
+
+[ECMAScript 2016+ compatibility table](https://kangax.github.io/compat-table/es2016plus/#node12_11)
+[String.prototype.replaceAll() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll)
+[Operador de coalescência nula - JavaScript | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
+[Encadeamento opcional - JavaScript | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+
+
+
 
