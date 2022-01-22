@@ -363,6 +363,28 @@ Agora para fazer build rode um dos comandos:
 `npm run build:backend`
 
 
+## 276. Exercício - Validando um formulário
+
+
+Exercício
+
+[Ver A0019-Exercicio.ts](./src/A0019-Exercicio/A0019-Exercicio.ts)
+
+Alterar o endereço do arquivo de entrada do [webpack.config.js](./webpack.config.js):
+
+```
+entry: './src/A0019-Exercicio/A0019-Exercicio.ts',
+```
+
+Agora para fazer build rode do comando:
+
+`npm run build:frontend`
+
+Instalar as dependencias para validação do formulário:
+
+`npm i @types/validator`
+
+
 
 
 

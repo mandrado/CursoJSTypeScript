@@ -81,21 +81,36 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/A0018-webpack/index.ts");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/A0019-Exercicio/A0019-Exercicio.ts");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/A0018-webpack/index.ts":
-/*!************************************!*\
-  !*** ./src/A0018-webpack/index.ts ***!
-  \************************************/
+/***/ "./src/A0019-Exercicio/A0019-Exercicio.ts":
+/*!************************************************!*\
+  !*** ./src/A0019-Exercicio/A0019-Exercicio.ts ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-console.log('Olá Mundo');
+Object.defineProperty(exports, "__esModule", { value: true });
+__webpack_require__(/*! ./form-control */ "./src/A0019-Exercicio/form-control.ts");
+
+
+/***/ }),
+
+/***/ "./src/A0019-Exercicio/form-control.ts":
+/*!*********************************************!*\
+  !*** ./src/A0019-Exercicio/form-control.ts ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+console.log('MOD');
 
 
 /***/ })
