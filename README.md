@@ -385,6 +385,13 @@ Instalar as dependencias para validação do formulário:
 `npm install --save validator @types/validator -D`
 
 
+## 277. This em function e arrow function
+
+Nesta aula entendemos um pouco sobre o uso do `this` em arrow function:
+
+[Ver A0020-this-in-funcions.ts](./src/A0020-this-in-funcions/A0020-this-in-funcions.ts)
+
+
 
 
 
