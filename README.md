@@ -425,5 +425,11 @@ Recursos da aula
 [Encadeamento opcional - JavaScript | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 
 
+## 281. Modificadores de acesso public e private
 
+* Tudo que é público é visível dentro da classe e fora da classe em todas as subclasses da classe. Não precisa dizer que é público, por padrão é sempre público.
+* Tudo que é privado só é visível dentro da classe, excelente para encapsulamento. Serve para manipular dados sensiveis. Para disponibilizar um atributo privado, devemos criar metodos públicos que acessem os atributos.
+
+
+[Ver A0022-public-private.ts](./src/A0022-public-private/A0022-public-private.ts)
 
