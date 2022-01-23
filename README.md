@@ -453,4 +453,10 @@ Representamos os modificadores de acesso:
 TypeScript permite apenas uma unica herança de classe. Nâo é permitido herdar de mais de uma classe.
 
 
+## 283. super - para acesso à super classe
 
+super classe = classe pai = classe mãe
+
+[Ver A0024-super.ts](./src/A0024-super/A0024-super.ts)
+
+utilizamos a palavra super para ter acesso a alguma coisa da classe pai
