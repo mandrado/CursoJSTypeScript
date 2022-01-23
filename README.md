@@ -433,3 +433,24 @@ Recursos da aula
 
 [Ver A0022-public-private.ts](./src/A0022-public-private/A0022-public-private.ts)
 
+## 282. Herança com TypeScript
+
+Ferramenta gratuita para criação de diagramas [yEd Live](https://www.yworks.com/yed-live/)
+
+Crie diagramas de alta qualidade de forma rápida e eficaz e organize-os com nossos algoritmos de layout automático.
+
+Name = Nome da Clase
+Attributes = Atributos
+Operatitions = Métodos da classe
+
+[Ver A0023-heranca.ts](./src/A0023-heranca/A0023-heranca.ts)
+
+Representamos os modificadores de acesso:
+* Sinal + = Publico
+* Sinal - = Private
+* Sinal # = Protected
+
+TypeScript permite apenas uma unica herança de classe. Nâo é permitido herdar de mais de uma classe.
+
+
+
