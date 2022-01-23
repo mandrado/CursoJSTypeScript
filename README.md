@@ -437,6 +437,8 @@ Recursos da aula
 
 Ferramenta gratuita para criação de diagramas [yEd Live](https://www.yworks.com/yed-live/)
 
+[Arquivo da aula](./src/A0023-heranca/A0023-heranca-diagramas.graphml)
+
 Crie diagramas de alta qualidade de forma rápida e eficaz e organize-os com nossos algoritmos de layout automático.
 
 Name = Nome da Clase
