@@ -464,3 +464,10 @@ super classe = classe pai = classe mãe
 [Ver A0024-super.ts](./src/A0024-super/A0024-super.ts)
 
 utilizamos a palavra super para ter acesso a alguma coisa da classe pai
+
+
+## 284. Modificador de acesso protected
+
+Tudo que é protected pode ser acessado na classe em que foi criado e nas subclasses que foram criadas por herança.
+
+[Ver A0025-protected.ts](./src/A0025-protected/A0025-protected.ts)
