@@ -471,3 +471,8 @@ utilizamos a palavra super para ter acesso a alguma coisa da classe pai
 Tudo que é protected pode ser acessado na classe em que foi criado e nas subclasses que foram criadas por herança.
 
 [Ver A0025-protected.ts](./src/A0025-protected/A0025-protected.ts)
+
+
+## 285. Getters e Setters em TypeScript
+
+[Ver A0026-getters-setters.ts](./src/A0026-getters-setters/A0026-getters-setters.ts)
