@@ -476,3 +476,11 @@ Tudo que é protected pode ser acessado na classe em que foi criado e nas subcla
 ## 285. Getters e Setters em TypeScript
 
 [Ver A0026-getters-setters.ts](./src/A0026-getters-setters/A0026-getters-setters.ts)
+
+## 286. Atributos e métodos estáticos
+
+métodos estáticos são métodos que podem ser acessados sem instanciar a classe.
+
+[Ver A0027-attribute-static.ts](./src/A0027-attribute-static/A0027-attribute-static.ts)
+
+indicação do livro [Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos](./frontend/assets/pdf/padroes-de-projeto-soluoes-reutilizaveis-de-software-orientado-a-objetos-erich-gammapdf_compress.pdf)
