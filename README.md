@@ -500,3 +500,8 @@ Factory Method ou Construtor virtual é um padrão de projeto de software (desig
 ## 288. Classes, métodos e atributos abstratos
 
 [Ver A0029-abstracts.ts](./src/A0029-abstracts/A0029-abstracts.ts)
+
+
+## 289. Associação entre classes
+
+[Ver A0030-associacao.ts](./src/A0030-associacao/A0030-associacao.ts)
