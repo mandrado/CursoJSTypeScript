@@ -484,3 +484,15 @@ métodos estáticos são métodos que podem ser acessados sem instanciar a class
 [Ver A0027-attribute-static.ts](./src/A0027-attribute-static/A0027-attribute-static.ts)
 
 indicação do livro [Padrões de Projetos: Soluções Reutilizáveis de Software Orientados a Objetos](./frontend/assets/pdf/padroes-de-projeto-soluoes-reutilizaveis-de-software-orientado-a-objetos-erich-gammapdf_compress.pdf)
+
+
+## 287. Construtor privado e singleton
+
+Compartilhe uma única instância global em todo o nosso aplicativo.
+
+[Padrão Singleton](https://www.patterns.dev/posts/singleton-pattern/)
+
+
+[Ver A0028-construtor-privado.ts](./src/A0028-construtor-privado/A0028-construtor-privado.ts)
+
+Factory Method ou Construtor virtual é um padrão de projeto de software (design pattern) que permite às classes delegar para subclasses decidirem, isso é feito através da criação de objetos que chamam o método fabrica especificado numa interface e implementado por um classe filha ou implementado numa classe abstrata e opcionalmente sobrescrito por classes derivadas.
