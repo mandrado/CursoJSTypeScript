@@ -496,3 +496,7 @@ Compartilhe uma única instância global em todo o nosso aplicativo.
 [Ver A0028-construtor-privado.ts](./src/A0028-construtor-privado/A0028-construtor-privado.ts)
 
 Factory Method ou Construtor virtual é um padrão de projeto de software (design pattern) que permite às classes delegar para subclasses decidirem, isso é feito através da criação de objetos que chamam o método fabrica especificado numa interface e implementado por um classe filha ou implementado numa classe abstrata e opcionalmente sobrescrito por classes derivadas.
+
+## 288. Classes, métodos e atributos abstratos
+
+[Ver A0029-abstracts.ts](./src/A0029-abstracts/A0029-abstracts.ts)
