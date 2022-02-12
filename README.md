@@ -535,3 +535,8 @@ Pode-se dizer que composição é uma variação da agregação. Uma composiçã
 ## 293. Implementando Type Alias em Classes
 
 [Ver A0033-implementando-tipos.ts](./src/A0033-implementando-tipos/A0033-implementando-tipos.ts)
+
+
+## 294. Interfaces em TypeScript
+
+[Ver A0034-interfaces.ts](./src/A0034-interfaces/A0034-interfaces.ts)
