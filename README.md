@@ -530,3 +530,8 @@ Pode-se dizer que composição é uma variação da agregação. Uma composiçã
 ![Diagrama UML Composição entre classes](./src/A0032-composicao/Composicao.png?raw=true "Diagrama Composição entre classes")
 
 [Ver A0032-composicao.ts](./src/A0032-composicao/A0032-composicao.ts)
+
+
+## 293. Implementando Type Alias em Classes
+
+[Ver A0033-implementando-tipos.ts](./src/A0033-implementando-tipos/A0033-implementando-tipos.ts)
