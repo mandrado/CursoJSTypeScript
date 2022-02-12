@@ -510,4 +510,8 @@ Factory Method ou Construtor virtual é um padrão de projeto de software (desig
 
 ![Diagrama UML Associação entre classes com Inversão de dependência](./src/A0030-associacao/Associacao.png?raw=true "Diagrama UML Associação entre classes com Inversão de dependência")
 
+## 291. Agregação entre classes
 
+![Diagrama UML Inversão de dependência](./src/A0031-agregacao/Agregacao.png?raw=true "Diagrama Inversão de dependência")
+
+[Ver A0031-agregacao.ts](./src/A0031-agregacao/A0031-agregacao.ts)
